@@ -1,0 +1,13 @@
+# Use of integer types:
+print(3/4)
+print(3%4)
+print(3//4)
+print(3**4)
+
+# Use of float,complex and bool types
+
+# Use of float
+i = 3.5
+j= 1.2
+print(i%j)
+
