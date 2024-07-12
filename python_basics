@@ -4,10 +4,58 @@ print(3%4)
 print(3//4)
 print(3**4)
 
+
 # Use of float,complex and bool types
 
 # Use of float
 i = 3.5
 j= 1.2
 print(i%j)
+
+
+# Use of complex
+a = 1+2j
+b = 3*(1+2j)
+c = a*b
+print(a)
+print(b)
+print(c)
+print(a.real)
+print(a.imag)
+print(a.conjugate())
+print(a)
+
+
+# Use of bool
+x = True
+y = 3>4
+print(x)
+print(y)
+
+
+# Convert from one number type to another
+
+#Convert to int
+print(int(3.14))  #from float to int
+
+a = int('485')    #from numeric string to int
+b = int('768')    #from numeric string to int
+c = a + b
+print(c)
+
+print(int('1011',2))  #convert from binary to decimal int
+print(int('341',8))   #convert from octal to decimal int
+print(int('21',16))   #convert from hex to decimal int
+
+
+# Program to make use of built-in math functions
+
+print(abs(-25))
+print(pow(2,4))
+print(min(10,20,30,40,50))
+print(divmod(17,3))
+print(bin(64), oct(64), hex(64))
+print(round(2.567), round(2.5678,2))
+
+
 
